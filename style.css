@@ -2,6 +2,19 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+.menu{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;    
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.menu a:hover{
+    background-color: gray;
+}
 h1{
     font-size: 30px;
 }
