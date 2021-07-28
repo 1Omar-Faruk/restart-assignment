@@ -10,7 +10,7 @@ h1{
 }
 .flexiliblity{
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -24,11 +24,39 @@ h1{
     border-radius: 25px;
 }
 #small-img img{
-    width: 80%;
+    width: 50%;
 }
 .about-me{
     display: flex;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     padding: 50px;
+}
+.recipie-text{
+    text-align: center;
+}
+.items img{
+    width: 80%;
+}
+.my-recipies{
+    margin: 30px;
+}
+.items{
+    width: 35%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.black{
+    background-color: black;
+    text-align: center;
+    height: 150px;
+}
+.network{
+    color: gray;
+}
+.white{
+    color: white;
 }
